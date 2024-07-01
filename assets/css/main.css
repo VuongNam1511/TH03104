@@ -1,0 +1,77 @@
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-background {
+    background-color: brown;
+}
+
+.navbar-top .nav-item {
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.navbar-top .nav-link {
+    text-decoration-line: underline;
+}
+
+.navbar-bottom .nav-link {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+a.product-by-text.nav-item {
+    margin-right: 33vw;
+}
+
+.search-banner {
+    background: url('/assets/img/66523758_2179086345552793_921615783182729216_n.jpg') center center no-repeat;
+    height: 300px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 24px;
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 14px;
+    background: green;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
