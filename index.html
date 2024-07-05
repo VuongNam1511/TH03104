@@ -13,62 +13,1698 @@
 
 
 <body>
-    <nav class="navbar-background navbar navbar-expand-lg ">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/img/fag-logo.png" width="100%" height="70" alt="Logo">
-            </a>
+    <div class="main">
+        <!-- Header -->
+        <div class="header">
+            <nav class="navbar-background navbar navbar-expand-lg ">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/img/fag-logo.png" width="100%" height="70" alt="Logo">
+                    </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <div class="collapse navbar-collapse flex-column align-items-end" id="navbarCollapse">
-                <!-- navbartop -->
-                <div class="navbar-top navbar-nav mb-lg-0">
-                    <a href="#" class="product-by-text nav-item">Hệ Thông Được Phát Triển Bởi VNUALeague</a>
-                    <a class="nav-item nav-link" href="#">Đăng nhập</a>
-                    <a class="nav-item nav-link" href="#">Đăng Ký</a>
+                    <div class="collapse navbar-collapse flex-column align-items-end" id="navbarCollapse">
+                        <!-- navbartop -->
+                        <div class="navbar-top navbar-nav mb-lg-0">
+                            <!-- <a href="#" class="product-by-text nav-item">Hệ Thông Được Phát Triển Bởi VNUALeague</a> -->
+                            <a class="nav-item nav-link" href="#">Đăng nhập</a>
+                            <a class="nav-item nav-link" href="#">Đăng Ký</a>
+                        </div>
+
+                        <!-- navbarbottom -->
+                        <ul class="navbar-bottom navbar-nav mt-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">TRANG CHỦ </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GIẢI ĐANG DIỄN RA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GIẢI SẮP KHỞI TRANH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GIẢI ĐÃ KẾT THÚC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GIỚI THIỆU</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HƯỚNG DẪN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ĐÁNH GIÁ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">TIN TỨC</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-                <!-- navbarbottom -->
-                <ul class="navbar-bottom navbar-nav mt-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">TRANG CHỦ </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">GIẢI ĐANG DIỄN RA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">GIẢI SẮP KHỞI TRANH</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">GIẢI ĐÃ KẾT THÚC</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">GIỚI THIỆU</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HƯỚNG DẪN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ĐÁNH GIÁ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">TIN TỨC</a>
-                    </li>
-                </ul>
+            </nav>
+            <div class="search-banner">
+                <div class="text">
+                    <span>HỆ THÔNG QUẢN LÍ GIẢI ĐẤU CHUYÊN NGHIỆP</span>
+                </div>
+                <form class="example" action="/action_page.php" style="margin:auto;max-width:70vw">
+                    <input type="text" placeholder="Tìm kiếm giải đấu của bạn" name="search2">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
             </div>
         </div>
-    </nav>
-    <div class="search-banner">
-        <div class="text">
-            <span>HỆ THÔNG QUẢN LÍ GIẢI ĐẤU CHUYÊN NGHIỆP</span>
+
+        <!-- Content -->
+        <div id="content">
+            <div class="container">
+                <div class="row list-league">
+
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="Dream League Soccer League 1">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/dream-league-soccer-league-s8502">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="Dream League Soccer League 1">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/dream-league-soccer-league-s8502">
+                                                    Dream League Soccer League 1 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 05-07-2024 đến 05-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 128 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/dream-league-soccer-league-s8502">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!--<div class="bn-as col-xs-12 hidden-lg hidden-md hidden-sm text-center" style="margin-bottom:10px;">
+                         <a href="https://ketnoibongda.vn/dich-vu/bao-hiem-corona-san-sang-ho-tro-nguoi-viet-giam-noi-lo-benh-dich-chuong-trinh-lien-ket-giua-bao-hiem-pvi-va-ket-noi-bong-da.html">
+                         <img src ="https://cdn.ketnoibongda.vn/images/bn-cr.jpg"  style="width:100%; height:auto;"/>
+                         </a>
+                         </div>-->
+
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/king-of-student-cup-s8501">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/king-of-student-cup-s8501">
+                                                    2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 16-07-2024 đến 18-08-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 8 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/king-of-student-cup-s8501">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="DSC Championship 2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/dsc-championship-2024-s8500">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="DSC Championship 2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/dsc-championship-2024-s8500">
+                                                    DSC Championship 2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 22-07-2024 đến 30-08-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 18 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/dsc-championship-2024-s8500">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="bn-as col-xs-12 hidden-lg hidden-md hidden-sm text-center"
+                        style="margin: 0px; padding: 0px; border-width: 0px;">
+                        <!-- Banner 300x250 -->
+                        <ins class="adsbygoogle" style="display: inline-block; width: 0px; height: 0px;"
+                            data-ad-client="ca-pub-7114517663761544" data-ad-slot="4933712389"
+                            data-adsbygoogle-status="done" data-ad-status="unfilled">
+                            <div id="aswift_2_host"
+                                style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;">
+                                <iframe id="aswift_2" name="aswift_2" browsingtopics="true"
+                                    style="left: 0px; position: absolute; top: 0px; border: 0px; width: 0px; height: 0px;"
+                                    sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                                    width="0" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0"
+                                    hspace="0" allowtransparency="true" scrolling="no"
+                                    allow="attribution-reporting; run-ad-auction"
+                                    src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7114517663761544&amp;output=html&amp;h=250&amp;slotname=4933712389&amp;adk=4104256187&amp;adf=4092543358&amp;pi=t.ma~as.4933712389&amp;w=300&amp;abgtt=6&amp;lmt=1720198220&amp;format=300x250&amp;url=https%3A%2F%2Ffagleague.vn%2F&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTQuMC4wIiwieDg2IiwiIiwiMTI2LjAuNjQ3OC4xMjciLG51bGwsMCxudWxsLCI2NCIsW1siTm90L0EpQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyNi4wLjY0NzguMTI3Il0sWyJHb29nbGUgQ2hyb21lIiwiMTI2LjAuNjQ3OC4xMjciXV0sMF0.&amp;dt=1720198220842&amp;bpp=1&amp;bdt=121&amp;idt=48&amp;shv=r20240702&amp;mjsv=m202407010101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Def87b86ba7f1459e%3AT%3D1718718986%3ART%3D1720197986%3AS%3DALNI_MZ-PM12aS8J7MFFs2r2jjceHtpCwQ&amp;gpic=UID%3D00000e53ca7993fd%3AT%3D1718718986%3ART%3D1720197986%3AS%3DALNI_Mb9SHcAybP8RXcgZ5ejFcknT7rEaA&amp;eo_id_str=ID%3Dd2468ac288de9493%3AT%3D1718718986%3ART%3D1720197986%3AS%3DAA-AfjYlkrAwXtDPYVzEUogJIN5-&amp;prev_fmts=0x0%2C0x100&amp;nras=1&amp;correlator=6190349052145&amp;frm=20&amp;pv=1&amp;ga_vid=1088189395.1718718986&amp;ga_sid=1720198221&amp;ga_hid=87858517&amp;ga_fc=1&amp;ga_cid=21983294.1720196589&amp;u_tz=420&amp;u_his=6&amp;u_h=864&amp;u_w=1536&amp;u_ah=816&amp;u_aw=1536&amp;u_cd=24&amp;u_sd=1.25&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1519&amp;bih=695&amp;scr_x=0&amp;scr_y=0&amp;eid=44759842%2C44795921%2C95330411%2C95334509%2C95334524%2C95334581%2C95335887%2C31085041%2C21065725%2C31078663%2C31078665%2C31078668%2C31078670&amp;oid=2&amp;pvsid=2769852458622456&amp;tmod=737862358&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Ffagleague.vn%2Fbang-gia.html&amp;fc=1920&amp;brdim=-1%2C-1%2C-1%2C-1%2C1536%2C0%2C1538%2C818%2C1536%2C695&amp;vis=1&amp;rsz=%7C%7CleEr%7C&amp;abl=CS&amp;pfx=0&amp;fu=33792&amp;bc=31&amp;bz=1&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=3&amp;uci=a!3&amp;fsb=1&amp;dtd=49"
+                                    data-google-container-id="a!3" tabindex="0" title="Advertisement"
+                                    aria-label="Advertisement" data-google-query-id="CMiFwt2tkIcDFU0tewcdQvAA2w"
+                                    data-load-complete="true"></iframe>
+                            </div>
+                        </ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/20241-s8499">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/20241-s8499">
+                                                    2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 05-07-2024 đến 01-09-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 8 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/20241-s8499">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="Nội bộ sân 5 KDang">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-dau-noi-bo-san-5-kdang-s8498">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="Nội bộ sân 5 KDang">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-dau-noi-bo-san-5-kdang-s8498">
+                                                    Nội bộ sân 5 KDang </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 10-07-2024 đến 20-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 12 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-dau-noi-bo-san-5-kdang-s8498">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="Giải bóng đá U18 ">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-da-u17-s8497">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="Giải bóng đá U18 ">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-da-u17-s8497">
+                                                    Giải bóng đá U18 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 13-07-2024 đến 20-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 8 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-da-u17-s8497">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/1-2024-07-04.jpg"
+                                            alt="GIẢI BÓNG ĐÁ AD MEDIA TUYÊN QUANG MỞ RỘNG LẦN THỨ NHẤT NĂM 2024 LỨA TUỔI U11-U13">
+                                    </div>
+                                    <div class="user">
+                                        <a
+                                            href="/league/giai-bong-da-ad-media-tuyen-quang-mo-rong-lua-tuoi-u11-u13-s8496">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/logo-2024-07-04.jpg"
+                                                alt="GIẢI BÓNG ĐÁ AD MEDIA TUYÊN QUANG MỞ RỘNG LẦN THỨ NHẤT NĂM 2024 LỨA TUỔI U11-U13">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a
+                                                    href="/league/giai-bong-da-ad-media-tuyen-quang-mo-rong-lua-tuoi-u11-u13-s8496">
+                                                    GIẢI BÓNG ĐÁ AD MEDIA TUYÊN QUANG MỞ RỘNG LẦN THỨ NHẤT NĂM 2024 LỨA
+                                                    TUỔI U11-U13 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 15-07-2024 đến 16-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 8 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a
+                                                    href="/league/giai-bong-da-ad-media-tuyen-quang-mo-rong-lua-tuoi-u11-u13-s8496">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="NHÓM A">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-quan-hung-lan-2-2024-s8492">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="NHÓM A">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-quan-hung-lan-2-2024-s8492">
+                                                    NHÓM A </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 08-07-2024 đến 07-08-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 10 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-quan-hung-lan-2-2024-s8492">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="Bi lát">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/bi-lat-221-hoang-mai-s8490">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="Bi lát">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/bi-lat-221-hoang-mai-s8490">
+                                                    Bi lát </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 04-07-2024 đến 04-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 7 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/bi-lat-221-hoang-mai-s8490">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="Vcbb">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/hhhhh-s8489">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="Vcbb">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/hhhhh-s8489">
+                                                    Vcbb </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 03-07-2024 đến 03-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 32 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/hhhhh-s8489">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="bn-as col-xs-12 hidden-lg hidden-md hidden-sm text-center"
+                        style="margin: 0px; padding: 0px; border-width: 0px;">
+                        <!-- Banner 300x250 -->
+                        <ins class="adsbygoogle" style="display: inline-block; width: 0px; height: 0px;"
+                            data-ad-client="ca-pub-7114517663761544" data-ad-slot="4933712389"
+                            data-adsbygoogle-status="done" data-ad-status="unfilled">
+                            <div id="aswift_3_host"
+                                style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;">
+                                <iframe id="aswift_3" name="aswift_3" browsingtopics="true"
+                                    style="left: 0px; position: absolute; top: 0px; border: 0px; width: 0px; height: 0px;"
+                                    sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                                    width="0" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0"
+                                    hspace="0" allowtransparency="true" scrolling="no"
+                                    allow="attribution-reporting; run-ad-auction"
+                                    src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-7114517663761544&amp;output=html&amp;h=250&amp;slotname=4933712389&amp;adk=4104256187&amp;adf=4226796050&amp;pi=t.ma~as.4933712389&amp;w=300&amp;abgtt=6&amp;lmt=1720198220&amp;format=300x250&amp;url=https%3A%2F%2Ffagleague.vn%2F&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMTQuMC4wIiwieDg2IiwiIiwiMTI2LjAuNjQ3OC4xMjciLG51bGwsMCxudWxsLCI2NCIsW1siTm90L0EpQnJhbmQiLCI4LjAuMC4wIl0sWyJDaHJvbWl1bSIsIjEyNi4wLjY0NzguMTI3Il0sWyJHb29nbGUgQ2hyb21lIiwiMTI2LjAuNjQ3OC4xMjciXV0sMF0.&amp;dt=1720198220843&amp;bpp=1&amp;bdt=121&amp;idt=78&amp;shv=r20240702&amp;mjsv=m202407010101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Def87b86ba7f1459e%3AT%3D1718718986%3ART%3D1720197986%3AS%3DALNI_MZ-PM12aS8J7MFFs2r2jjceHtpCwQ&amp;gpic=UID%3D00000e53ca7993fd%3AT%3D1718718986%3ART%3D1720197986%3AS%3DALNI_Mb9SHcAybP8RXcgZ5ejFcknT7rEaA&amp;eo_id_str=ID%3Dd2468ac288de9493%3AT%3D1718718986%3ART%3D1720197986%3AS%3DAA-AfjYlkrAwXtDPYVzEUogJIN5-&amp;prev_fmts=0x0%2C0x100%2C300x250&amp;nras=1&amp;correlator=6190349052145&amp;frm=20&amp;pv=1&amp;ga_vid=1088189395.1718718986&amp;ga_sid=1720198221&amp;ga_hid=87858517&amp;ga_fc=1&amp;ga_cid=21983294.1720196589&amp;u_tz=420&amp;u_his=6&amp;u_h=864&amp;u_w=1536&amp;u_ah=816&amp;u_aw=1536&amp;u_cd=24&amp;u_sd=1.25&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=1519&amp;bih=695&amp;scr_x=0&amp;scr_y=0&amp;eid=44759842%2C44795921%2C95330411%2C95334509%2C95334524%2C95334581%2C95335887%2C31085041%2C21065725%2C31078663%2C31078665%2C31078668%2C31078670&amp;oid=2&amp;pvsid=2769852458622456&amp;tmod=737862358&amp;uas=0&amp;nvt=1&amp;ref=https%3A%2F%2Ffagleague.vn%2Fbang-gia.html&amp;fc=1920&amp;brdim=-1%2C-1%2C-1%2C-1%2C1536%2C0%2C1538%2C818%2C1536%2C695&amp;vis=1&amp;rsz=%7C%7CleEr%7C&amp;abl=CS&amp;pfx=0&amp;fu=33792&amp;bc=31&amp;bz=1&amp;td=1&amp;tdf=2&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=4&amp;uci=a!4&amp;fsb=1&amp;dtd=79"
+                                    data-google-container-id="a!4" tabindex="0" title="Advertisement"
+                                    aria-label="Advertisement" data-google-query-id="CMaCw92tkIcDFeI-ewcdxiUIeg"
+                                    data-load-complete="true"></iframe>
+                            </div>
+                        </ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="Giai bong da xa Dong minh">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-da-xa-dong-minh-s8487">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="Giai bong da xa Dong minh">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-da-xa-dong-minh-s8487">
+                                                    Giai bong da xa Dong minh </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 06-07-2024 đến 03-08-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 10 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-da-xa-dong-minh-s8487">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="GIẢI BÓNG ĐÁ U17 TÂN ĐỨC OPEN LẦN III TRANH CÚP TQC QUỐC TẾ NĂM 2024">
+                                    </div>
+                                    <div class="user">
+                                        <a
+                                            href="/league/giai-bong-da-u17-tan-duc-open-lan-iii-tranh-cup-tqc-quoc-te-nam-2024-s8486">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="GIẢI BÓNG ĐÁ U17 TÂN ĐỨC OPEN LẦN III TRANH CÚP TQC QUỐC TẾ NĂM 2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a
+                                                    href="/league/giai-bong-da-u17-tan-duc-open-lan-iii-tranh-cup-tqc-quoc-te-nam-2024-s8486">
+                                                    GIẢI BÓNG ĐÁ U17 TÂN ĐỨC OPEN LẦN III TRANH CÚP TQC QUỐC TẾ NĂM 2024
+                                                </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 06-07-2024 đến 05-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 8 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a
+                                                    href="/league/giai-bong-da-u17-tan-duc-open-lan-iii-tranh-cup-tqc-quoc-te-nam-2024-s8486">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="S4">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/mom-s4-s8485">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="S4">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/mom-s4-s8485">
+                                                    S4 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 03-07-2024 đến 03-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 6 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/mom-s4-s8485">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="PhuongDo League">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/phuongdo-league-s8484">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/c6b24234-d65e-4d8c-84ac-dd28f444521d-2024-07-03.jpeg"
+                                                alt="PhuongDo League">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/phuongdo-league-s8484">
+                                                    PhuongDo League </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 03-07-2024 đến 03-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 12 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/phuongdo-league-s8484">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/fb-img-1719931343243-2024-07-02.jpg"
+                                            alt="Phong trào hè Hamu Tanran 2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-chuyen-truyen-thong-hamutanran-2024-s8483">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/fb-img-1719931354509-2024-07-02.jpg"
+                                                alt="Phong trào hè Hamu Tanran 2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-chuyen-truyen-thong-hamutanran-2024-s8483">
+                                                    Phong trào hè Hamu Tanran 2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 06-07-2024 đến 04-08-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 4 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-chuyen-truyen-thong-hamutanran-2024-s8483">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/1-2024-07-02.jpg"
+                                            alt="CỰU HỌC SINH THCS 98-02 ĐÔNG SƠN">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/cap-2-dong-son-s8482">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="CỰU HỌC SINH THCS 98-02 ĐÔNG SƠN">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/cap-2-dong-son-s8482">
+                                                    CỰU HỌC SINH THCS 98-02 ĐÔNG SƠN </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 20-07-2024 đến 28-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 4 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/cap-2-dong-son-s8482">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/img-8352-2024-07-02.jpeg"
+                                            alt="GIẢI BÓNG ĐÁ NHÂM TUẤT 1982 LẦN THỨ 6 NĂM 2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-da-nham-tuat-1982-lan-thu-6-nam-2024-s8481">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/img-8350-2024-07-02.png"
+                                                alt="GIẢI BÓNG ĐÁ NHÂM TUẤT 1982 LẦN THỨ 6 NĂM 2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-da-nham-tuat-1982-lan-thu-6-nam-2024-s8481">
+                                                    GIẢI BÓNG ĐÁ NHÂM TUẤT 1982 LẦN THỨ 6 NĂM 2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 05-10-2024 đến 30-11-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 12 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-da-nham-tuat-1982-lan-thu-6-nam-2024-s8481">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="GIẢI QUẦN HÙNG TRANH BÁ OPEN III">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-da-dien-tu-quan-hung-tranh-ba--s8480">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="GIẢI QUẦN HÙNG TRANH BÁ OPEN III">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-da-dien-tu-quan-hung-tranh-ba--s8480">
+                                                    GIẢI QUẦN HÙNG TRANH BÁ OPEN III </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 07-07-2024 đến 12-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 5 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-da-dien-tu-quan-hung-tranh-ba--s8480">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="CHICKEN CLOSE CUP 2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/chicken-close-cup-s8479">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/2024-07-04-00-54-29-chicken-close-4-x-364-cm-foxit-reader-1-2024-07-04.png"
+                                                alt="CHICKEN CLOSE CUP 2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/chicken-close-cup-s8479">
+                                                    CHICKEN CLOSE CUP 2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 01-07-2024 đến 25-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 6 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/chicken-close-cup-s8479">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/z5592560439900-b7f0f5cd60f4d2a96d517e2946fb8a31500mb-2024-07-01.jpg"
+                                            alt="HYSA SUMMER - U9">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/hysa-summer-s8476">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/z5401737039350-9961b3b73642b36274afe67f947d74b3-2024-07-01.jpg"
+                                                alt="HYSA SUMMER - U9">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/hysa-summer-s8476">
+                                                    HYSA SUMMER - U9 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 13-07-2024 đến 14-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 8 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/hysa-summer-s8476">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+
+
+                    <div class="col-xs-12 col-sm-12 text-center page">
+
+                    </div>
+
+
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="XÂY DỰNG BẤT ĐỘNG SẢN">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-xay-dung-bds-s8475">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="XÂY DỰNG BẤT ĐỘNG SẢN">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-xay-dung-bds-s8475">
+                                                    XÂY DỰNG BẤT ĐỘNG SẢN </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 15-07-2024 đến 01-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 10 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-xay-dung-bds-s8475">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="2024-205">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-da-11-nguoi-s8474">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="2024-205">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-da-11-nguoi-s8474">
+                                                    2024-205 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 13-07-2024 đến 15-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 10 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-da-11-nguoi-s8474">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="gải bóng 27 đội">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-27-do-s8473">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="gải bóng 27 đội">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-27-do-s8473">
+                                                    gải bóng 27 đội </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 08-07-2024 đến 16-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 16 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-27-do-s8473">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="GIẢI BÓNG ĐÁ VPCUP 2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-da-vpcup-2024--s8472">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/cacc51b4-80fe-4a78-bb5f-32f0e874bbd0-2024-07-01.jpg"
+                                                alt="GIẢI BÓNG ĐÁ VPCUP 2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-da-vpcup-2024--s8472">
+                                                    GIẢI BÓNG ĐÁ VPCUP 2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 25-08-2024 đến 03-09-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 6 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-da-vpcup-2024--s8472">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="GIẢI BÓNG ĐÁ TRƯỜNG THCS LÝ TỰ TRỌNG SEASON">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-da-truong-thcs-ly-tu-trong-season-1-s8471">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/7fa4bcaf-a6b4-4b07-8582-1af9622f4e34-2024-06-30.jpg"
+                                                alt="GIẢI BÓNG ĐÁ TRƯỜNG THCS LÝ TỰ TRỌNG SEASON">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-da-truong-thcs-ly-tu-trong-season-1-s8471">
+                                                    GIẢI BÓNG ĐÁ TRƯỜNG THCS LÝ TỰ TRỌNG SEASON </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 15-06-2024 đến 21-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 12 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-da-truong-thcs-ly-tu-trong-season-1-s8471">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="giải bóng đá s7 xây dựng - nội thất - bất động sản">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-bong-da-s7-xay-dung-noi-that-bat-dong-san-s8470">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="giải bóng đá s7 xây dựng - nội thất - bất động sản">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-bong-da-s7-xay-dung-noi-that-bat-dong-san-s8470">
+                                                    giải bóng đá s7 xây dựng - nội thất - bất động sản </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 30-06-2024 đến 30-06-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 10 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-bong-da-s7-xay-dung-noi-that-bat-dong-san-s8470">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="N.H.A">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/nha-s8469">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/aaa05e68-cb98-4536-90d1-5ad6a513c1cd-2024-06-30.jpg"
+                                                alt="N.H.A">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/nha-s8469">
+                                                    N.H.A </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 30-06-2024 đến 30-06-2025
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 20 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/nha-s8469">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="Lamky league">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/lamky-league-s8468">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="Lamky league">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/lamky-league-s8468">
+                                                    Lamky league </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 27-06-2024 đến 01-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 5 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/lamky-league-s8468">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="Yên Xá Open 2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/yen-xa-open-s8467">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="Yên Xá Open 2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/yen-xa-open-s8467">
+                                                    Yên Xá Open 2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 30-06-2024 đến 02-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 8 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/yen-xa-open-s8467">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/oip-2024-06-30.jpg"
+                                            alt="Euro 2024 Dream League-1">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/euro-2024-dream-league-1-s8466">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/blue-soccer-sports-logo-2024-06-30.png"
+                                                alt="Euro 2024 Dream League-1">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/euro-2024-dream-league-1-s8466">
+                                                    Euro 2024 Dream League-1 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 04-07-2024 đến 07-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 6 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/euro-2024-dream-league-1-s8466">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="A ĐÒ LEAGUE S3 NĂM 2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/a-do-league-season-3-nam-2024-s8464">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/z5577200728223-cdb414272d436754f5b6fe9f928bef38-2024-06-29.jpg"
+                                                alt="A ĐÒ LEAGUE S3 NĂM 2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/a-do-league-season-3-nam-2024-s8464">
+                                                    A ĐÒ LEAGUE S3 NĂM 2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 01-07-2024 đến 06-07-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 9 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/a-do-league-season-3-nam-2024-s8464">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-xs-12 col">
+                        <section class="containers">
+                            <div class="card" id="card1">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="https://cdn.ketnoibongda.vn/media-c/260-105-100/upload/images/bg-default.jpg"
+                                            alt="2024">
+                                    </div>
+                                    <div class="user">
+                                        <a href="/league/giai-mini-rot-ruou-s8461">
+                                            <img class="img-circle"
+                                                src="https://cdn.ketnoibongda.vn/media-c/110-110-100/upload/images/league-default.png"
+                                                alt="2024">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                            <h3 class="name">
+                                                <a href="/league/giai-mini-rot-ruou-s8461">
+                                                    2024 </a>
+                                            </h3>
+                                            <p class="profession">
+                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                Từ 29-06-2024 đến 29-06-2024
+                                            </p>
+                                        </div>
+                                        <div class="footer-rotate">
+                                            <div class="count-person">
+                                                <i class="fa fa-users" aria-hidden="true"></i> 4 Đội
+                                            </div>
+                                            <div class="info-league">
+                                                <a href="/league/giai-mini-rot-ruou-s8461">
+                                                    Thông tin <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 text-center">
+                    <input type="hidden" id="LoadLeague" value="1">
+                    <input type="hidden" id="typeLeague" value="0">
+                    <input type="hidden" id="limitLeague" value="12">
+                    <input type="hidden" id="offsetItem" value="32">
+                </div>
+            </div>
         </div>
-        <form class="example" action="/action_page.php" style="margin:auto;max-width:70vw">
-            <input type="text" placeholder="Tìm kiếm giải đấu của bạn" name="search2">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+
+        <!-- Footer -->
+        <div class="footer">
+            <footer class="container-fluid footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+
+
+                            <p>Bản quyền thuộc VNUALeague </p>
+                            <p>Copyright © 2024 - 2024 FAG. All rights reserved. </p>
+                            <p>Chỉ được phát hành lại nội dung khi có sự đồng ý của VNUALeague</p>
+                            <div style="margin: auto;">
+                                <img style="width:  36px;  margin-right:15px"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/13015673_10153943477900239_794210601335532414_nsdfsf.jpg/800px-13015673_10153943477900239_794210601335532414_nsdfsf.jpg">
+                                <a href="">
+                                    <img style="margin-right:15px"
+                                        src="https://cdn.ketnoibongda.vn/images/googleplay.svg" width="106" height="36">
+                                </a>
+                                <a href="">
+                                    <img style=" margin-right:15px" src="https://cdn.ketnoibongda.vn/images/ios.svg"
+                                        width="106" height="36">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <p class="phone"><i class="fa fa-building" aria-hidden="true"></i> CÔNG TY CỔ PHẦN TỔ
+                                CHỨC
+                                SỰ KIỆN VÀ TRUYỀN THÔNG VNUALeague</p>
+                            <p class="phone"><i class="fa fa-map-marker" aria-hidden="true"></i> Huyện Gia Lâm, Hà
+                                Nội
+                            </p>
+                            <p class="phone"><i class="fa fa-mobile" aria-hidden="true"></i> 091 321 7102 </p>
+                            <p class="web"><i class="fa fa-envelope" aria-hidden="true"></i> abcdxyz@gamil.com </p>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
 
 </html>
