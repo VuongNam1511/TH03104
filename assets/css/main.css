@@ -170,6 +170,7 @@ h3.name {
 .main .name a {
     text-decoration: none;
     color: #333;
+    font-size: 18px;
 }
 
 .card .user img {
