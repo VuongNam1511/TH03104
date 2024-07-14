@@ -55,6 +55,7 @@ button.btn.btn-primary.dropdown-toggle {
     }
 
     button.btn.btn-primary.dropdown-toggle {
+        display: block;
         margin: 0px 0px;
         background: transparent !important;
         border-color: #444 !important;
