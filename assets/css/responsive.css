@@ -1,0 +1,67 @@
+/* PC */
+@media (min-width: 1024px) {}
+
+#showmenu {
+    display: none;
+}
+
+button.btn.btn-primary.dropdown-toggle {
+    display: none;
+}
+
+/* Tablet */
+@media (min-width: 657px) and (max-width:1023px) {}
+
+/* Mobile */
+@media (max-width: 414px) {
+    .navbar {
+        height: 70px;
+
+    }
+
+    .search-banner .text {
+        font-size: 24px;
+    }
+
+
+    .container .navbar-brand img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 70px;
+        width: 204px;
+
+    }
+
+    div.row.list-league {
+        display: block;
+    }
+
+
+    img.img-circle {
+        margin-left: 34%;
+        margin-top: -15%;
+    }
+
+    .cover img {
+        width: 382px;
+    }
+
+
+    #showmenu {
+        display: block;
+        color: white;
+    }
+
+    button.btn.btn-primary.dropdown-toggle {
+        margin: 0px 0px;
+        background: transparent !important;
+        border-color: #444 !important;
+        outline: none;
+    }
+
+    .pull-right {
+        margin-right: -55%;
+    }
+}
