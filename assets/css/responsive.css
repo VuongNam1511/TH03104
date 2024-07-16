@@ -5,9 +5,71 @@
     display: none;
 }
 
+#menu-mobie-btn {
+    display: none;
+}
+
+/* #mynav {
+    display: none;
+}  */
+
 button.btn.btn-primary.dropdown-toggle {
     display: none;
 }
+
+/* .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+} */
 
 /* Tablet */
 @media (min-width: 657px) and (max-width:1023px) {
@@ -63,6 +125,36 @@ button.btn.btn-primary.dropdown-toggle {
     .pull-right {
         margin-right: -55%;
     }
+
+    #menu-mobie-btn {
+        display: block;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 60px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown-menu ul {
+        font-size: 12px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        font-size: 12px;
+        min-width: 60px;
+    }
+
 }
 
 /* Mobile */
@@ -70,6 +162,36 @@ button.btn.btn-primary.dropdown-toggle {
     .navbar {
         height: 70px;
 
+    }
+
+    div #menu {
+        position: fixed;
+        background-color: #555;
+        height: 100%;
+        z-index: 1500;
+        width: 280px;
+        color: #fff;
+        top: 0;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        opacity: 1;
+        font-family: Roboto Condensed, sans-serif;
+        overflow-y: scroll;
+        overflow: hidden;
+    }
+
+    #menu ul {
+        list-style: none;
+        margin-left: -10%;
+    }
+
+    #menu ul li a {
+        color: inherit;
+        font-size: 20px;
+        display: block;
+        padding: 12px 0 12px 8px;
+        text-decoration: none;
     }
 
     .search-banner .text {
@@ -117,5 +239,91 @@ button.btn.btn-primary.dropdown-toggle {
 
     .pull-right {
         margin-right: -55%;
+    }
+
+    #menu-mobie-btn {
+        display: block;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 60px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown-menu ul {
+        font-size: 12px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        font-size: 12px;
+        min-width: 60px;
+    }
+
+
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    /* display: inline-block; */
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
     }
 }

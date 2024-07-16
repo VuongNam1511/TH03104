@@ -20,7 +20,20 @@
         <div class="header">
             <nav class="navbar-background navbar navbar-expand-lg ">
                 <div class="container">
-                    <a href="#" id="showmenu" class="pull-left"> <i class="fa fa-bars" aria-hidden="true"></i></a>
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                            <a href="#">TRANG CHỦ</a>
+                            <a href="#">GIẢI ĐANG DIỄN RA</a>
+                            <a href="#">GIẢI SẮP KHƠI TRANH</a>
+                            <a href="#">GIẢI ĐÃ KẾT THÚC</a>
+                            <a href="#">GIỚI THIỆU</a>
+                            <a href="#">HƯỚNG DẪN</a>
+                            <a href="#">ĐÁNH GIÁ</a>
+                            <a href="#">TIN TỨC</a>
+                        </div>
+                    </div>
+                    <span id="menu-mobie-btn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
                     <a class="navbar-brand" href="#">
                         <img src="./assets/img/fag-logo.png" width="100%" height="70px
                         " alt="Logo">
@@ -81,6 +94,27 @@
                     </div>
                 </div>
             </nav>
+
+            <!-- <div id="menu" class="left show">
+                <ul>
+
+                    <li><a href="https://fagleague.vn"><i class="fa fa-cog" aria-hidden="true"></i>Trang chủ</a></li>
+                    <li><a href="https://fagleague.vn/dang-dien-ra"><i class="fa fa-cog" aria-hidden="true"></i>Giải
+                            đang diễn ra</a></li>
+                    <li><a href="https://fagleague.vn/sap-khoi-tranh"><i class="fa fa-cog" aria-hidden="true"></i>Giải
+                            sắp khởi tranh</a></li>
+                    <li><a href="https://fagleague.vn/da-ket-thuc"><i class="fa fa-cog" aria-hidden="true"></i>Giải đã
+                            kết thúc</a></li>
+                    <li><a href="https://ketnoibongda.vn/bong-da-phong-trao/gioi-thieu-he-thong-quan-ly-giai-dau-fagleaguevn.html"
+                            target="_blank">Giới thiệu</a></li>
+                    <li><a href="https://ketnoibongda.vn/goc-chien-thuat/huong-dan-tao-giai-dau-tren-he-thong-quan-ly-giai-fagleague-fagleaguevn.html"
+                            target="_blank">Hướng dẫn tạo giải</a></li>
+                    <li><a href="https://fagleague.vn/bang-gia.html"><i class="fa fa-cog" aria-hidden="true"></i> Bảng
+                            giá</a></li>
+                    <li><a href="//ketnoibongda.vn"><i class="fa fa-cog" aria-hidden="true"></i>Tin tức</a></li>
+                </ul>
+            </div> -->
+
             <div class="search-banner">
                 <div class="text">
                     <span>HỆ THÔNG QUẢN LÍ GIẢI ĐẤU CHUYÊN NGHIỆP</span>
@@ -1722,5 +1756,18 @@
             </footer>
         </div>
     </div>
+
+    <!-- menuButtonJS -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+</body>
 
 </html>
